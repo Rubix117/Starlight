@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="starlight::Armour">
+    <Position X="3.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAgAAAAgAgAAACAAAEAAAAAAAAQAAAAAAI=</HashCode>
+      <FileName>Armour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::GameObjectFactory" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAGAFIJAAAIAAAAgBIBAAIwBAgAAAAAABAA=</HashCode>
+      <FileName>GameObjectFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Room" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQBAAAAAABABAAQAAAAAAEAAEAAA=</HashCode>
+      <FileName>Dungeon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Dungeon">
+    <Position X="2.75" Y="20.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="starlight::Dungeon::MAP_LINK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dungeon.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BEAAEAAAAAIAgAAAAIAAAIAgIiAAABEAQAAAAAABAAA=</HashCode>
+      <FileName>Dungeon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Enemy">
+    <Position X="12.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYgQgAAQgAAAgAAAACCAAABYAEEAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Game" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="starlight::Game::CAMERA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="starlight::Game::STATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CIwArMpZSgAEC4CBMgApAAAwAA3DAEDRqQgIAFBBBAw=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::GameMath" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAEAAAAQABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameMath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::GameObject">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="starlight::GameObject::Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="starlight::GameObject::ObjectType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABQAAAAEAAggAkAAAJAAIAEAEAAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::HUD" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYwAAAAgAAAAEgAAAACAAAIAACAAAAAQABAAAAAAAAA=</HashCode>
+      <FileName>HUD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Item">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="starlight::Item::ItemType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Item.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="starlight::Item::ItemQuality" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Item.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="starlight::Item::ItemElement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Item.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAgIAAAOAAACAAAAAAAAAMAAAEAgAAAAAABAAAAAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Player">
+    <Position X="10" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCgIAQAgAAQgAAABABFQABAAAIigACEAIAASAAABI=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Map">
+    <Position X="1.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQABAAJOACgAgACAAAAIAAgSAAAABAgBIEAABABA=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Character">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="starlight::Character::ActionState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Character.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="starlight::Character::CollisionType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Character.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAMAAJAIAAogAkAAEAAoBACKFCASAcQABAIAAAKKg=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::PathFinding" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAABAiABAABQAQAAAEAQgAAAIAEAQBAUCAAAAQ=</HashCode>
+      <FileName>PathFinding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Potion">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAIAAAAAAggAAAAAAAAAAEAAAAIAAAQIAAAAAA=</HashCode>
+      <FileName>Potion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Projectile">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAgAAAAAACAACAQAAAAAAAAEAIAA=</HashCode>
+      <FileName>Projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Rectangle" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAIAQIAAAAAAoAAAACgCAIAAQAIA=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::SearchCell" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAIQAAAAAAAAAAAAoAGEAQAAA=</HashCode>
+      <FileName>SearchCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Tile" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="starlight::Tile::TileType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Tile.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgABAAAAAAAAAAABAAAAAAhoACAEAQA=</HashCode>
+      <FileName>Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Vector2_&lt;T&gt;">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAACAACAAAAgAQAAAAAAAAAIAABgAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::Weapon">
+    <Position X="7.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgIAAAAAAgAAAABAAAAAAAgEAAggAAAAQAAAAAAA=</HashCode>
+      <FileName>Weapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="starlight::World">
+    <Position X="0.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADIAEAAAAACEAAAAAgACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="starlight::Vector2F" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="starlight::Vector2" Collapsed="true">
+    <Position X="15.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="starlight::KEYBOARD_KEYS" Collapsed="true">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAIBBAAAAIMBggAABAUAAAAEBAAA=</HashCode>
+      <FileName>Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="starlight::KEY_MODIFIER" Collapsed="true">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="starlight::MOUSE_BUTTONS" Collapsed="true">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAA=</HashCode>
+      <FileName>Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
